@@ -1,0 +1,27 @@
+{
+  "name": "rag-app-langchain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "load-pdf.js",
+  "scripts": {
+    "start": "node load-pdf.js",
+    "test": "node --check load-pdf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github-personal:MendritMorina/rag-app-langchain.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@langchain/classic": "^1.0.47",
+    "@langchain/community": "^1.1.29",
+    "@langchain/core": "^1.2.0",
+    "@langchain/ollama": "^1.3.0",
+    "@langchain/textsplitters": "^1.0.1",
+    "langchain": "^1.5.10",
+    "pdf-parse": "^2.4.5"
+  }
+}
